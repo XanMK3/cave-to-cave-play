@@ -1,5 +1,5 @@
 {
   "game": "cave-to-cave",
-  "base": "/",
+  "base": "/cave-to-cave-play/",
   "mode": "rig"
 }
