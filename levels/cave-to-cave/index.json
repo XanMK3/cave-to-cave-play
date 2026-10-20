@@ -1,0 +1,66 @@
+[
+  {
+    "name": "01 \u00b7 Introducing platforms",
+    "file": "/levels/cave-to-cave/level-01.json"
+  },
+  {
+    "name": "02 \u00b7 Introducing bird",
+    "file": "/levels/cave-to-cave/level-02.json"
+  },
+  {
+    "name": "03 \u00b7 Introducing funny water",
+    "file": "/levels/cave-to-cave/level-03.json"
+  },
+  {
+    "name": "04 \u00b7 Introducing dino",
+    "file": "/levels/cave-to-cave/level-04.json"
+  },
+  {
+    "name": "05 \u00b7 Introducing triopterus",
+    "file": "/levels/cave-to-cave/level-05.json"
+  },
+  {
+    "name": "06 \u00b7 Introducing diving",
+    "file": "/levels/cave-to-cave/level-06.json"
+  },
+  {
+    "name": "07 \u00b7 Zigzag",
+    "file": "/levels/cave-to-cave/level-07.json"
+  },
+  {
+    "name": "08 \u00b7 Funny water but you will make it",
+    "file": "/levels/cave-to-cave/level-08.json"
+  },
+  {
+    "name": "09 \u00b7 Bottleneck I",
+    "file": "/levels/cave-to-cave/level-09.json"
+  },
+  {
+    "name": "10 \u00b7 How can I get over there",
+    "file": "/levels/cave-to-cave/level-10.json"
+  },
+  {
+    "name": "11 \u00b7 Nasty tree",
+    "file": "/levels/cave-to-cave/level-11.json"
+  },
+  {
+    "name": "12 \u00b7 Big cave",
+    "file": "/levels/cave-to-cave/level-12.json"
+  },
+  {
+    "name": "13 \u00b7 Diving fun",
+    "file": "/levels/cave-to-cave/level-13.json"
+  },
+  {
+    "name": "14 \u00b7 Pretty platforms",
+    "file": "/levels/cave-to-cave/level-14.json"
+  },
+  {
+    "name": "15 \u00b7 The triops and you",
+    "file": "/levels/cave-to-cave/level-15.json"
+  },
+  {
+    "name": "16 \u00b7 Infinity",
+    "file": "generated:infinity"
+  }
+]

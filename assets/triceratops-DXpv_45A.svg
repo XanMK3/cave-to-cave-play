@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>Triceratops</title>
+  <desc>A bilaterally symmetric geometric triceratops with solid earthy colors and a transparent background.</desc>
+  <path fill="#8a7046" d="M12 2H20L27 7 31 13 30 20 25 25H7L2 20 1 13 5 7Z"/>
+  <path fill="#bc8047" d="M13 13H19L23 17 25 20 23 24 22 28H10L9 24 7 20 9 17Z"/>
+  <g fill="#ead8af">
+    <path d="M2 2 13 14 8 17Z"/>
+    <path d="M30 2 19 14 24 17Z"/>
+    <path d="M16 16 18 23H14Z"/>
+  </g>
+  <g fill="#36261e">
+    <path d="M10 19H12V21H10Z"/>
+    <path d="M20 19H22V21H20Z"/>
+  </g>
+  <path fill="#c79b60" d="M13 23H19L20 24 22 28 19 31H13L10 28 12 24Z"/>
+  <g fill="#805433">
+    <path d="M12 24H13V26H12Z"/>
+    <path d="M19 24H20V26H19Z"/>
+  </g>
+</svg>
