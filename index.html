@@ -7,8 +7,8 @@
       content="width=device-width,initial-scale=1,viewport-fit=cover"
     />
     <title></title>
-    <script type="module" crossorigin src="/cave-to-cave-play/assets/player-BjNBnxE4.js"></script>
-    <link rel="stylesheet" crossorigin href="/cave-to-cave-play/assets/player-D5MCMEZH.css">
+    <script type="module" crossorigin src="/cave-to-cave-play/assets/player-C9mNad36.js"></script>
+    <link rel="stylesheet" crossorigin href="/cave-to-cave-play/assets/player-wO6d0ZHu.css">
   </head>
   <body class="standalone-player">
     <main id="game-root">
@@ -46,6 +46,7 @@
             <p id="menu-subtitle" hidden></p>
             <div id="menu-home" class="menu-view">
               <button id="menu-new-game" class="menu-primary"></button>
+              <button id="menu-tutorial" hidden>Tutorial</button>
               <button id="menu-settings" hidden></button>
               <button id="menu-about"></button>
               <button
@@ -118,6 +119,31 @@
               <div id="menu-graphics"></div>
               <div id="menu-touch-settings" hidden></div>
               <button id="menu-settings-back" class="menu-back" type="button">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    d="m12 5-7 7 7 7M5 12h14"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div id="menu-tutorial-view" class="menu-view" hidden>
+              <div
+                id="tutorial-cards"
+                tabindex="0"
+                role="region"
+                aria-label="Game basics"
+              ></div>
+              <button
+                id="menu-tutorial-back"
+                class="menu-back"
+                type="button"
+                aria-label="Back"
+              >
                 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                   <path
                     d="m12 5-7 7 7 7M5 12h14"
@@ -232,11 +258,7 @@
             </div>
           </div>
           <div class="hud-status">
-            <strong
-              id="hud-destination"
-              class="hud-destination"
-              hidden
-            >
+            <strong id="hud-destination" class="hud-destination" hidden>
               <svg
                 class="hud-destination-icon"
                 viewBox="0 0 24 24"
