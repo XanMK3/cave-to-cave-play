@@ -150,22 +150,6 @@
       "position": {
         "x": 0,
         "y": 150
-      },
-      "overrides": {
-        "abilities": {
-          "birdFlight": {
-            "initialDelaySeconds": 2,
-            "flightSpeed": 85,
-            "respawnDelaySeconds": 5,
-            "passDelaySeconds": 11,
-            "verticalTolerance": 10,
-            "laneOffset": 0,
-            "laneMode": "sampleOnSpawn",
-            "entryPolicy": "oppositeCabin",
-            "entryEdges": ["left", "right"],
-            "fallInitialSpeed": 20
-          }
-        }
       }
     }
   ],

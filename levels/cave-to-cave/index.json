@@ -60,7 +60,39 @@
     "file": "/levels/cave-to-cave/level-15.json"
   },
   {
-    "name": "16 \u00b7 Infinity",
+    "name": "16 \u00b7 The easy cave",
+    "file": "/levels/cave-to-cave/level-16.json"
+  },
+  {
+    "name": "17 \u00b7 My fight against the triop",
+    "file": "/levels/cave-to-cave/level-17.json"
+  },
+  {
+    "name": "18 \u00b7 Dino likes the ladies",
+    "file": "/levels/cave-to-cave/level-18.json"
+  },
+  {
+    "name": "19 \u00b7 Diving for professionals",
+    "file": "/levels/cave-to-cave/level-19.json"
+  },
+  {
+    "name": "20 \u00b7 A capital G",
+    "file": "/levels/cave-to-cave/level-20.json"
+  },
+  {
+    "name": "21 \u00b7 Easy triop",
+    "file": "/levels/cave-to-cave/level-21.json"
+  },
+  {
+    "name": "22 \u00b7 Many destinations",
+    "file": "/levels/cave-to-cave/level-22.json"
+  },
+  {
+    "name": "23 \u00b7 Tower of atlantis",
+    "file": "/levels/cave-to-cave/level-23.json"
+  },
+  {
+    "name": "24 \u00b7 Infinity",
     "file": "generated:infinity"
   }
 ]
