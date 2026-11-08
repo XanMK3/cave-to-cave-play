@@ -92,7 +92,7 @@
     "file": "/levels/cave-to-cave/level-23.json"
   },
   {
-    "name": "24 \u00b7 Infinity",
-    "file": "generated:infinity"
+    "name": "24 \u00b7 A cave under water",
+    "file": "/levels/cave-to-cave/level-24.json"
   }
 ]
