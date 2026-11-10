@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/cave-to-cave-play/sw.js', { scope: '/cave-to-cave-play/' })})}
