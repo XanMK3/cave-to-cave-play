@@ -94,5 +94,29 @@
   {
     "name": "24 \u00b7 A cave under water",
     "file": "/levels/cave-to-cave/level-24.json"
+  },
+  {
+    "name": "25 \u00b7 The Christmas tree",
+    "file": "/levels/cave-to-cave/level-25.json"
+  },
+  {
+    "name": "26 \u00b7 In the cave",
+    "file": "/levels/cave-to-cave/level-26.json"
+  },
+  {
+    "name": "27 \u00b7 Trees on the top",
+    "file": "/levels/cave-to-cave/level-27.json"
+  },
+  {
+    "name": "28 \u00b7 Divers delight II",
+    "file": "/levels/cave-to-cave/level-28.json"
+  },
+  {
+    "name": "29 \u00b7 Bottleneck for beginners",
+    "file": "/levels/cave-to-cave/level-29.json"
+  },
+  {
+    "name": "30 \u00b7 Especially for you",
+    "file": "/levels/cave-to-cave/level-30.json"
   }
 ]
