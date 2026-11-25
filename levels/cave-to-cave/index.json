@@ -118,5 +118,17 @@
   {
     "name": "30 \u00b7 Especially for you",
     "file": "/levels/cave-to-cave/level-30.json"
+  },
+  {
+    "name": "31 \u00b7 Twisting by the pool",
+    "file": "/levels/cave-to-cave/level-31.json"
+  },
+  {
+    "name": "32 \u00b7 Triopterus Nastius",
+    "file": "/levels/cave-to-cave/level-32.json"
+  },
+  {
+    "name": "33 \u00b7 May the force be with you",
+    "file": "/levels/cave-to-cave/level-33.json"
   }
 ]
