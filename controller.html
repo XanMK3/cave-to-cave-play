@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <title>Cave to Cave — Phone Controller</title>
+    <script type="module" crossorigin src="/cave-to-cave-play/assets/controller-CnKJ2uW0.js"></script>
+    <link rel="modulepreload" crossorigin href="/cave-to-cave-play/assets/menu-view-DQewrcAH.js">
+    <link rel="stylesheet" crossorigin href="/cave-to-cave-play/assets/controller-D4x0dGhL.css">
+  </head>
+  <body>
+    <main class="controller">
+      <header>
+        <div class="identity">
+          <h1>Cave to Cave</h1>
+          <p id="connection-status" role="status">Connecting…</p>
+        </div>
+        <div class="header-actions">
+          <button
+            id="joystick-side"
+            class="icon-button"
+            type="button"
+            aria-label="Joystick on left. Move to right"
+            title="Joystick on left. Move to right"
+          >
+            <svg
+              class="gamepad-icon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.75"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M7 6h10c2.4 0 3.6 1.5 4 3.8l1 6.3c.4 2.5-1.9 3.8-3.6 2L15.5 15h-7l-2.9 3.1c-1.7 1.8-4 .5-3.6-2l1-6.3C3.4 7.5 4.6 6 7 6Z"
+              />
+              <path d="M5.5 10.5h5m-2.5-2.5v5" />
+              <circle
+                cx="16"
+                cy="9.5"
+                r="1"
+                fill="currentColor"
+                stroke="none"
+              />
+              <circle
+                cx="18.5"
+                cy="12"
+                r="1"
+                fill="currentColor"
+                stroke="none"
+              />
+            </svg>
+            <svg
+              class="swap-icon"
+              viewBox="0 0 20 20"
+              aria-hidden="true"
+              focusable="false"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.75"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M3 6h14m-3-3 3 3-3 3M17 14H3m3-3-3 3 3 3" />
+            </svg>
+          </button>
+          <button id="controller-disconnect" type="button" disabled>
+            Disconnect
+          </button>
+        </div>
+        <p id="controller-hint" hidden></p>
+      </header>
+      <nav id="controller-actions" aria-label="Game actions"></nav>
+      <touch-controls
+        id="flight-controls"
+        controller
+        inert
+        handedness="right"
+        aria-label="Flight controls"
+      >
+        <touch-joystick
+          id="flight-stick"
+          slot="movement"
+          mode="fixed"
+          deadzone="0.15"
+          aria-label="Fly"
+        ></touch-joystick>
+        <touch-button id="flight-drop" slot="actions" action="action"
+          >Drop</touch-button
+        >
+      </touch-controls>
+    </main>
+  </body>
+</html>
